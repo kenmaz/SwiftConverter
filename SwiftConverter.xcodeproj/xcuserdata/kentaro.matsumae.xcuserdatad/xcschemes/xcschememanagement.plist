@@ -9,10 +9,20 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>SwiftConverterExtension.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>5E8114F61D3F591D005D9230</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5E81150C1D3F5931005D9230</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -7,19 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E3A48291D3F762700360010 /* objc2swift-1.0.jar in Resources */ = {isa = PBXBuildFile; fileRef = 5E55CC311D3F6DE800B47657 /* objc2swift-1.0.jar */; };
+		5E55CC321D3F6DE800B47657 /* objc2swift-1.0.jar in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E55CC311D3F6DE800B47657 /* objc2swift-1.0.jar */; };
+		5E70C33D1D3F70F000055456 /* run.sh in Resources */ = {isa = PBXBuildFile; fileRef = 5E70C33C1D3F70F000055456 /* run.sh */; };
 		5E8114FB1D3F591D005D9230 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8114FA1D3F591D005D9230 /* AppDelegate.swift */; };
 		5E8114FD1D3F591D005D9230 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8114FC1D3F591D005D9230 /* ViewController.swift */; };
 		5E8114FF1D3F591D005D9230 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E8114FE1D3F591D005D9230 /* Assets.xcassets */; };
 		5E8115021D3F591D005D9230 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E8115001D3F591D005D9230 /* Main.storyboard */; };
+		5E8115101D3F5931005D9230 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E81150F1D3F5931005D9230 /* Cocoa.framework */; };
+		5E8115151D3F5931005D9230 /* SourceEditorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8115141D3F5931005D9230 /* SourceEditorExtension.swift */; };
+		5E8115171D3F5931005D9230 /* SourceEditorCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8115161D3F5931005D9230 /* SourceEditorCommand.swift */; };
+		5E81151B1D3F5931005D9230 /* SwiftConverterExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5E81150D1D3F5931005D9230 /* SwiftConverterExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		5E8115191D3F5931005D9230 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E8114EF1D3F591D005D9230 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E81150C1D3F5931005D9230;
+			remoteInfo = SwiftConverterExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5E81151F1D3F5931005D9230 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5E81151B1D3F5931005D9230 /* SwiftConverterExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		5E55CC311D3F6DE800B47657 /* objc2swift-1.0.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; path = "objc2swift-1.0.jar"; sourceTree = "<group>"; };
+		5E70C33C1D3F70F000055456 /* run.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = run.sh; sourceTree = "<group>"; };
 		5E8114F71D3F591D005D9230 /* SwiftConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E8114FA1D3F591D005D9230 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E8114FC1D3F591D005D9230 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5E8114FE1D3F591D005D9230 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E8115011D3F591D005D9230 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5E8115031D3F591D005D9230 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E81150D1D3F5931005D9230 /* SwiftConverterExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SwiftConverterExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E81150F1D3F5931005D9230 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		5E8115131D3F5931005D9230 /* SwiftConverterExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = SwiftConverterExtension.entitlements; sourceTree = "<group>"; };
+		5E8115141D3F5931005D9230 /* SourceEditorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorExtension.swift; sourceTree = "<group>"; };
+		5E8115161D3F5931005D9230 /* SourceEditorCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorCommand.swift; sourceTree = "<group>"; };
+		5E8115181D3F5931005D9230 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +69,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5E81150A1D3F5931005D9230 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E55CC321D3F6DE800B47657 /* objc2swift-1.0.jar in Frameworks */,
+				5E8115101D3F5931005D9230 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -37,6 +85,8 @@
 			isa = PBXGroup;
 			children = (
 				5E8114F91D3F591D005D9230 /* SwiftConverter */,
+				5E8115111D3F5931005D9230 /* SwiftConverterExtension */,
+				5E81150E1D3F5931005D9230 /* Frameworks */,
 				5E8114F81D3F591D005D9230 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				5E8114F71D3F591D005D9230 /* SwiftConverter.app */,
+				5E81150D1D3F5931005D9230 /* SwiftConverterExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,6 +112,35 @@
 			path = SwiftConverter;
 			sourceTree = "<group>";
 		};
+		5E81150E1D3F5931005D9230 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E81150F1D3F5931005D9230 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5E8115111D3F5931005D9230 /* SwiftConverterExtension */ = {
+			isa = PBXGroup;
+			children = (
+				5E8115141D3F5931005D9230 /* SourceEditorExtension.swift */,
+				5E8115161D3F5931005D9230 /* SourceEditorCommand.swift */,
+				5E70C33C1D3F70F000055456 /* run.sh */,
+				5E55CC311D3F6DE800B47657 /* objc2swift-1.0.jar */,
+				5E8115181D3F5931005D9230 /* Info.plist */,
+				5E8115121D3F5931005D9230 /* Supporting Files */,
+			);
+			path = SwiftConverterExtension;
+			sourceTree = "<group>";
+		};
+		5E8115121D3F5931005D9230 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E8115131D3F5931005D9230 /* SwiftConverterExtension.entitlements */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,15 +151,34 @@
 				5E8114F31D3F591D005D9230 /* Sources */,
 				5E8114F41D3F591D005D9230 /* Frameworks */,
 				5E8114F51D3F591D005D9230 /* Resources */,
+				5E81151F1D3F5931005D9230 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				5E81151A1D3F5931005D9230 /* PBXTargetDependency */,
 			);
 			name = SwiftConverter;
 			productName = SwiftConverter;
 			productReference = 5E8114F71D3F591D005D9230 /* SwiftConverter.app */;
 			productType = "com.apple.product-type.application";
+		};
+		5E81150C1D3F5931005D9230 /* SwiftConverterExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E81151C1D3F5931005D9230 /* Build configuration list for PBXNativeTarget "SwiftConverterExtension" */;
+			buildPhases = (
+				5E8115091D3F5931005D9230 /* Sources */,
+				5E81150A1D3F5931005D9230 /* Frameworks */,
+				5E81150B1D3F5931005D9230 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftConverterExtension;
+			productName = SwiftConverterExtension;
+			productReference = 5E81150D1D3F5931005D9230 /* SwiftConverterExtension.appex */;
+			productType = "com.apple.product-type.xcode-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -92,6 +191,12 @@
 				ORGANIZATIONNAME = kenmaz.net;
 				TargetAttributes = {
 					5E8114F61D3F591D005D9230 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = C884GV7UGD;
+						DevelopmentTeamName = "DeNA Co., Ltd.";
+						ProvisioningStyle = Automatic;
+					};
+					5E81150C1D3F5931005D9230 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = C884GV7UGD;
 						DevelopmentTeamName = "DeNA Co., Ltd.";
@@ -113,6 +218,7 @@
 			projectRoot = "";
 			targets = (
 				5E8114F61D3F591D005D9230 /* SwiftConverter */,
+				5E81150C1D3F5931005D9230 /* SwiftConverterExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -124,6 +230,15 @@
 			files = (
 				5E8114FF1D3F591D005D9230 /* Assets.xcassets in Resources */,
 				5E8115021D3F591D005D9230 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E81150B1D3F5931005D9230 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E3A48291D3F762700360010 /* objc2swift-1.0.jar in Resources */,
+				5E70C33D1D3F70F000055456 /* run.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,7 +254,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5E8115091D3F5931005D9230 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E8115151D3F5931005D9230 /* SourceEditorExtension.swift in Sources */,
+				5E8115171D3F5931005D9230 /* SourceEditorCommand.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E81151A1D3F5931005D9230 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E81150C1D3F5931005D9230 /* SwiftConverterExtension */;
+			targetProxy = 5E8115191D3F5931005D9230 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5E8115001D3F591D005D9230 /* Main.storyboard */ = {
@@ -242,6 +374,7 @@
 		5E8115071D3F591D005D9230 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = SwiftConverter/Info.plist;
@@ -255,12 +388,43 @@
 		5E8115081D3F591D005D9230 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = SwiftConverter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.kenmaz.SwiftConverter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		5E81151D1D3F5931005D9230 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = SwiftConverterExtension/SwiftConverterExtension.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SwiftConverterExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = net.kenmaz.SwiftConverter.SwiftConverterExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5E81151E1D3F5931005D9230 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = SwiftConverterExtension/SwiftConverterExtension.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SwiftConverterExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = net.kenmaz.SwiftConverter.SwiftConverterExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -284,6 +448,16 @@
 				5E8115081D3F591D005D9230 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E81151C1D3F5931005D9230 /* Build configuration list for PBXNativeTarget "SwiftConverterExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E81151D1D3F5931005D9230 /* Debug */,
+				5E81151E1D3F5931005D9230 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
